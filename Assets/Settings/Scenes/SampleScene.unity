@@ -408,6 +408,7 @@ GameObject:
   - component: {fileID: 1290175822}
   - component: {fileID: 1290175827}
   - component: {fileID: 1290175826}
+  - component: {fileID: 1290175828}
   m_Layer: 0
   m_Name: Player SPHERE
   m_TagString: Untagged
@@ -501,7 +502,7 @@ Transform:
   m_GameObject: {fileID: 1290175821}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2, y: 1.99, z: 2}
+  m_LocalPosition: {x: 2, y: 2, z: 2}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -564,6 +565,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1290175828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290175821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8443fd9c6236904794e79fa5c10d0db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &1521655905
 GameObject:
   m_ObjectHideFlags: 0
@@ -758,7 +771,7 @@ Transform:
   m_GameObject: {fileID: 2085883147}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70535314, y: 0.012978986, z: -0.019753117, w: 0.70846194}
-  m_LocalPosition: {x: 1.97, y: -1.02, z: 2.02}
+  m_LocalPosition: {x: 1.99, y: -1.29, z: 2}
   m_LocalScale: {x: 52.6637, y: 47.2117, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
